@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VenonSabio Uploader</title>
+<style>body{font-family:system-ui,Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}code{background:#f2f2f2;padding:2px 6px;border-radius:4px;word-break:break-all}</style>
+</head>
+<body>
+<h1>VenonSabio Uploader</h1>
+<p>Ferramenta pessoal do canal VenonSabio para publicar os próprios vídeos curtos.</p>
+<p><a href="terms.html">Termos de Uso</a> · <a href="privacy.html">Política de Privacidade</a></p>
+<div id="auth" hidden>
+  <h2>Autorização concluída</h2>
+  <p>Copie o endereço completo desta página (barra de endereço do navegador) e cole no terminal do AutoPost.</p>
+</div>
+<script>if (new URLSearchParams(location.search).has("code")) document.getElementById("auth").hidden = false;</script>
+</body>
+</html>
